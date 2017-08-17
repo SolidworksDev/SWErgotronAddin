@@ -1,0 +1,13 @@
+E:\Dev\SWAnthroAddin\SWAnthroAddin\bin\Debug\SWAnthroAddin.dll
+E:\Dev\SWAnthroAddin\SWAnthroAddin\bin\Debug\SWAnthroAddin.pdb
+E:\Dev\SWAnthroAddin\SWAnthroAddin\bin\Debug\SWAnthroAddin.tlb
+E:\Dev\SWAnthroAddin\SWAnthroAddin\bin\Debug\SolidWorksTools.dll
+E:\Dev\SWAnthroAddin\SWAnthroAddin\obj\Debug\SWAnthroAddin.PrintFromAssembly.resources
+E:\Dev\SWAnthroAddin\SWAnthroAddin\obj\Debug\SWAnthroAddin.Properties.Resources.resources
+E:\Dev\SWAnthroAddin\SWAnthroAddin\obj\Debug\SWAnthroAddin.VerifyForm.resources
+E:\Dev\SWAnthroAddin\SWAnthroAddin\obj\Debug\SWAnthroAddin.csproj.GenerateResource.Cache
+E:\Dev\SWAnthroAddin\SWAnthroAddin\obj\Debug\SWAnthroAddin.dll
+E:\Dev\SWAnthroAddin\SWAnthroAddin\obj\Debug\SWAnthroAddin.pdb
+E:\Dev\SWAnthroAddin\SWAnthroAddin\obj\Debug\SWAnthroAddin.csprojResolveAssemblyReference.cache
+E:\Dev\SWAnthroAddin\SWAnthroAddin\obj\Debug\Interop.EdmLib.dll
+E:\Dev\SWAnthroAddin\SWAnthroAddin\obj\Debug\SWAnthroAddin.csproj.ResolveComReference.cache
