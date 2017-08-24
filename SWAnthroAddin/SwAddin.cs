@@ -18,12 +18,12 @@ using System.IO;
 namespace SWErgotronAddin
 {
     /// <summary>
-    /// Summary description for SWAnthroAddin.
+    /// Summary description for SWErgtronAddin.
     /// </summary>
     [Guid("6f31288e-9075-432a-8c55-3dd4a9ee8d23"), ComVisible(true)]
     [SwAddin(
-        Description = "SWAnthroAddin description",
-        Title = "SWAnthroAddin",
+        Description = "SWErgotronAddin description",
+        Title = "SWErgotronAddin",
         LoadAtStartup = true
         )]
     public class SwAddin : ISwAddin
@@ -218,7 +218,7 @@ namespace SWErgotronAddin
                 iBmp = new BitmapHandler();
             Assembly thisAssembly;
             int cmdIndex0, cmdIndex1, cmdIndex2;
-            string Title = "Anthro", ToolTip = "Anthro Addin";
+            string Title = "Ergotron", ToolTip = "Ergotron Addin";
 
 
             int[] docTypes = new int[]{(int)swDocumentTypes_e.swDocASSEMBLY,
@@ -247,10 +247,10 @@ namespace SWErgotronAddin
             }
 
             cmdGroup = iCmdMgr.CreateCommandGroup2(mainCmdGroupID, Title, ToolTip, "", -1, ignorePrevious, ref cmdGroupErr);            
-            cmdGroup.LargeIconList = iBmp.CreateFileFromResourceBitmap("SWAnthroAddin.ToolbarLarge.bmp", thisAssembly);
-            cmdGroup.SmallIconList = iBmp.CreateFileFromResourceBitmap("SWAnthroAddin.DXF-Printer-Open.png", thisAssembly);            
-            cmdGroup.LargeMainIcon = iBmp.CreateFileFromResourceBitmap("SWAnthroAddin.MainIconLarge.bmp", thisAssembly);
-            cmdGroup.SmallMainIcon = iBmp.CreateFileFromResourceBitmap("SWAnthroAddin.MainIconSmall.bmp", thisAssembly);
+            cmdGroup.LargeIconList = iBmp.CreateFileFromResourceBitmap("SWErgotronAddin.ToolbarLarge.bmp", thisAssembly);
+            cmdGroup.SmallIconList = iBmp.CreateFileFromResourceBitmap("SWErgotronAddin.DXF-Printer-Open.png", thisAssembly);            
+            cmdGroup.LargeMainIcon = iBmp.CreateFileFromResourceBitmap("SWErgotronAddin.MainIconLarge.bmp", thisAssembly);
+            cmdGroup.SmallMainIcon = iBmp.CreateFileFromResourceBitmap("SWErgotronAddin.MainIconSmall.bmp", thisAssembly);
             
             int menuToolbarOption = (int)(swCommandItemType_e.swMenuItem | swCommandItemType_e.swToolbarItem);            
             
@@ -383,30 +383,7 @@ namespace SWErgotronAddin
 
         #region UI Callbacks
 
-        public void Print()
-        {
-            
-            ModelDoc2 currentModel = (ModelDoc2)iSwApp.ActiveDoc;
-
-            if (object.ReferenceEquals(currentModel, null))
-            {
-                MessageBox.Show("No Assembly Document Opened", "No Assembly", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-                return;
-            }
-
-            if (currentModel.GetType() == (int)swDocumentTypes_e.swDocASSEMBLY)
-            {
-                PrintFromAssembly printDrawings = new PrintFromAssembly(iSwApp);
-                Control.ControlCollection PrintFromAssemblyControls = printDrawings.DrawingListFormControls;
-                printDrawings.DrawingsDialog_AddListBox(PrintFromAssemblyControls);
-                printDrawings.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("The current document is not an assembly", "No Assembly Available", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                return;
-            }
-        }        
+       
 
         public int EnablePMP()
         {

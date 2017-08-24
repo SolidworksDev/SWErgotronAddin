@@ -66,7 +66,6 @@ namespace SWErgotronAddin
         {
 
             string vaultName = "Production Vault";
-            string CompareFloder = "C:\\Production Vault";
 
             EdmVault5 v = new EdmVault5();
 

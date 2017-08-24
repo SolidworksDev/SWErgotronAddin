@@ -249,7 +249,9 @@ namespace SWErgotronAddin
                 case "913":
                     return true;
                 case "915":
-                    return true;                
+                    return true;
+                case "916":
+                    return true;       
                 default:
                     return false;
             }
