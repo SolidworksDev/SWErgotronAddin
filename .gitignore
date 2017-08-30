@@ -1,0 +1,8 @@
+hosts.txt
+Setup/Debug/setup.exe
+Setup/Debug/Setup.msi
+Setup/Release/setup.exe
+Setup/Release/Setup.msi
+SWAnthroAddin/bin/Debug/SWAnthroAddin.dll
+SWAnthroAddin/bin/Debug/SWAnthroAddin.pdb
+SWAnthroAddin/bin/Debug/SWAnthroAddin.tlb

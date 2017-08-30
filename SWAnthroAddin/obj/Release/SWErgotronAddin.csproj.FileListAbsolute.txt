@@ -1,0 +1,8 @@
+\\anthro3\Design\Dev\SWErgotronAddin\SWAnthroAddin\obj\Release\Interop.EdmLib.dll
+\\anthro3\Design\Dev\SWErgotronAddin\SWAnthroAddin\obj\Release\SWErgotronAddin.csproj.ResolveComReference.cache
+\\anthro3\Design\Dev\SWErgotronAddin\SWAnthroAddin\obj\Release\SWErgotronAddin.Properties.Resources.resources
+\\anthro3\Design\Dev\SWErgotronAddin\SWAnthroAddin\obj\Release\SWErgotronAddin.csproj.GenerateResource.Cache
+\\anthro3\Design\Dev\SWErgotronAddin\SWAnthroAddin\bin\Release\SWErgotronAddin.dll
+\\anthro3\Design\Dev\SWErgotronAddin\SWAnthroAddin\bin\Release\SWErgotronAddin.tlb
+\\anthro3\Design\Dev\SWErgotronAddin\SWAnthroAddin\bin\Release\SolidWorksTools.dll
+\\anthro3\Design\Dev\SWErgotronAddin\SWAnthroAddin\obj\Release\SWErgotronAddin.dll

@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_00863AAA66C440DCA1EC07A644712059"
+        "MsmKey" = "8:_0FBF9B1A08074F79B2C4F55530E08DBF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,6 +33,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_7AD0F13B0B1F42F487926B5E43C5B9F9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A843A7A09F114FF3B275D618F4932E4B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B705DE43FFC94D36A697A9C4C35AD17B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -45,20 +57,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_FBB26E01DBB84A0CA6E6442AED115A1A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_62EF33FA721D40FE97133725687719F1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_125E893290EABA8FB3A1277102F1B38C"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -208,9 +208,49 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_00863AAA66C440DCA1EC07A644712059"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0FBF9B1A08074F79B2C4F55530E08DBF"
             {
-            "SourcePath" = "8:\\\\anthro3\\Design\\Dev\\SWErgotronAddin\\SWAnthroAddin\\Resources\\Ergotron.jpg"
+            "SourcePath" = "8:\\\\anthro3\\Design\\Dev\\SWErgotronAddin\\SWAnthroAddin\\Resources\\InstallIcon.ico"
+            "TargetName" = "8:InstallIcon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_1BB6B08E96DB48039895BB269BCBB75C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7AD0F13B0B1F42F487926B5E43C5B9F9"
+            {
+            "SourcePath" = "8:E:\\Dev\\SWErgotronAddin\\SWAnthroAddin\\Resources\\NPI Release Setup.ico"
+            "TargetName" = "8:NPI Release Setup.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_1BB6B08E96DB48039895BB269BCBB75C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A843A7A09F114FF3B275D618F4932E4B"
+            {
+            "SourcePath" = "8:E:\\Dev\\SWErgotronAddin\\SWAnthroAddin\\Resources\\Ergotron.jpg"
             "TargetName" = "8:Ergotron.jpg"
             "Tag" = "8:"
             "Folder" = "8:_32614A39DFC5459FA340EC51C3DFE585"
@@ -226,37 +266,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_125E893290EABA8FB3A1277102F1B38C"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:SolidWorksTools, Version=2.0.0.0, Culture=neutral, PublicKeyToken=bd18593873b4686d, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_125E893290EABA8FB3A1277102F1B38C"
-                    {
-                    "Name" = "8:SolidWorksTools.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:SolidWorksTools.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_1BB6B08E96DB48039895BB269BCBB75C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B705DE43FFC94D36A697A9C4C35AD17B"
@@ -283,26 +292,6 @@
             {
             "SourcePath" = "8:\\\\anthro3\\Design\\Dev\\SWErgotronAddin\\SWAnthroAddin\\Unreg-DLL.bat"
             "TargetName" = "8:Unreg-DLL.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_1BB6B08E96DB48039895BB269BCBB75C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FBB26E01DBB84A0CA6E6442AED115A1A"
-            {
-            "SourcePath" = "8:\\\\anthro3\\design\\Dev\\SWErgotronAddin\\SWAnthroAddin\\Resources\\NPI Release Setup.ico"
-            "TargetName" = "8:NPI Release Setup.ico"
             "Tag" = "8:"
             "Folder" = "8:_1BB6B08E96DB48039895BB269BCBB75C"
             "Condition" = "8:"
@@ -366,7 +355,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Ergotron SolidWorks Addin"
         "ProductCode" = "8:{5272342B-C0DF-4FA7-86BD-D9A5EBEC8388}"
-        "PackageCode" = "8:{DF1A9C34-5D7F-4594-8AB5-AD4A46A71189}"
+        "PackageCode" = "8:{FD77263C-4435-407C-A88A-C045FD857E42}"
         "UpgradeCode" = "8:{96239DA8-DB21-4B32-ADC6-27963E805113}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -383,7 +372,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Ergotron Solidworks Add in"
         "ARPURLINFOABOUT" = "8:http://www.ergotron.com/"
-        "ARPPRODUCTICON" = "8:_FBB26E01DBB84A0CA6E6442AED115A1A"
+        "ARPPRODUCTICON" = "8:_7AD0F13B0B1F42F487926B5E43C5B9F9"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -841,7 +830,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_00863AAA66C440DCA1EC07A644712059"
+                            "Value" = "8:_A843A7A09F114FF3B275D618F4932E4B"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -888,7 +877,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_62EF33FA721D40FE97133725687719F1"
             {
-            "SourcePath" = "8:\\\\anthro3\\Design\\Dev\\SWErgotronAddin\\SWAnthroAddin\\obj\\Release\\SWErgotronAddin.dll"
+            "SourcePath" = "8:\\\\anthro3\\Design\\Dev\\SWErgotronAddin\\SWAnthroAddin\\obj\\Debug\\SWErgotronAddin.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1BB6B08E96DB48039895BB269BCBB75C"
